@@ -31,6 +31,6 @@ AuthRouter.post("/resend_verification_code", resendVerificationCode);
 AuthRouter.post("/refresh", getNewAccessTokenUsingRefreshToken);
 AuthRouter.post("/logout", logout);
 AuthRouter.get("/get_users", [verifyAccessToken, checkerRoleChanger], getUsers)
-AuthRouter.get("/show_user_data", [verifyAccessToken], show_user_data)
+AuthRouter.get("/show_user_data", verifyAccessToken, show_user_data)
 
 module.exports = AuthRouter;
