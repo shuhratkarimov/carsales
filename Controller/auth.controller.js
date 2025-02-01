@@ -1,5 +1,5 @@
 const UserModel = require("../Schemas/auth.schema");
-const {LikeModel, DisLikeModel} = require("../Schemas/like.schema")
+const LikeModel = require("../Schemas/like.schema")
 const BaseError = require("../Utils/base_error");
 const bcryptjs = require("bcryptjs");
 const { array, date, ref } = require("joi");
