@@ -257,14 +257,7 @@ paths:
       summary: Retrieve user data based on refresh token
       description: Fetches user data, including likes, dislikes, added categories, and added cars based on the user's refresh token.
       tags:
-        - Auth
-      parameters:
-        - name: refreshtoken
-          in: cookie
-          required: true
-          description: Refresh token to verify the user's identity.
-          schema:
-            type: string
+        - Authentication
       responses:
         '200':
           description: Successfully retrieved user data.
