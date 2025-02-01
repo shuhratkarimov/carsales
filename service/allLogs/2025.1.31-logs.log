@@ -1,0 +1,4021 @@
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "10ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:05:11'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 09:05:14'
+}
+{
+  message: "shuhratkarimov.dev@gmail.com login qilishga urinishi davomida noto'g'ri parol kiritdi!",
+  level: 'warn',
+  timestamp: '2025-01-31 09:05:14'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "801ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "11111",\n' +
+    '        "deviceId": "device-1"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "40",\n' +
+    '        "etag": "W/\\"28-P+ViY+plOQWNXbs55pEMsoE2uTc\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:05:14'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 09:05:19'
+}
+{
+  message: "shuhratkarimov.dev@gmail.com login qilishga urinishi davomida noto'g'ri parol kiritdi!",
+  level: 'warn',
+  timestamp: '2025-01-31 09:05:19'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "675ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "11111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "40",\n' +
+    '        "etag": "W/\\"28-P+ViY+plOQWNXbs55pEMsoE2uTc\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:05:19'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 09:05:27'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-31 09:05:27'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "697ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4Mjk2MzI3LCJleHAiOjE3MzgyOTcyMjd9.jUZpYp0hy7U_qE4Xlw8J6ugDgZLbo6snhqnkbAY6dfw; Max-Age=900; Path=/; Expires=Fri, 31 Jan 2025 04:20:27 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4Mjk2MzI3LCJleHAiOjE3Mzg5MDExMjd9.xzokC9xyM39UP6wuL1JpNLrTU7oGC36bTc5RFscBgrQ; Max-Age=604800; Path=/; Expires=Fri, 07 Feb 2025 04:05:27 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:05:27'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "283ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "6759",\n' +
+    '        "etag": "W/\\"1a67-hYOV7IDZhbnbznHN4dnnMpm9tOY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:05:32'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "1985ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "156",\n' +
+    '        "etag": "W/\\"9c-CbHxMJOxQxfP+Lvn1aoLl3hfGRI\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:11:06'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?brand=ferrari",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "309ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1742",\n' +
+    '        "etag": "W/\\"6ce-6r0mAV4moznIC7bgZx7kbhzXmUw\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:11:30'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/upload/67972809bd43fc93092b8979",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "279ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "209",\n' +
+    '        "etag": "W/\\"d1-BjA5QHk9djTVpKiFxk6g+Jl6rog\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:11:46'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "259ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "202",\n' +
+    '        "etag": "W/\\"ca-iNyTJEk1N2ZECs+ExX6l6rsGFuA\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:11:53'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738296706578.jpeg",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "6ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 04:11:46 GMT",\n' +
+    '        "etag": "W/\\"3628-194ba8ec613\\"",\n' +
+    '        "content-type": "image/jpeg",\n' +
+    '        "content-length": 13864\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:11:58'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon.ico",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 150\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:11:58'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 09:20:35'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-31 09:20:35'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "811ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzM4Mjk3MjM1LCJleHAiOjE3MzgyOTgxMzV9.H0xXstUnt2CPpcFuw_1_NggRVRR4w-7rzMJRnjTIbBg; Max-Age=900; Path=/; Expires=Fri, 31 Jan 2025 04:35:35 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzM4Mjk3MjM1LCJleHAiOjE3Mzg5MDIwMzV9.IFj5I_X0dsPrObr56sHbnQsu4nNxzNNAwvQ2ijXnKa4; Max-Age=604800; Path=/; Expires=Fri, 07 Feb 2025 04:20:35 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:20:35'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/get_one_car",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 150\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:22:22'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/update_category",\n' +
+    '    "status": 403,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "108",\n' +
+    '        "etag": "W/\\"6c-JtRwhF9MQuE8eb8GXnlJLgu/tQY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:22:37'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 09:23:01'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-31 09:23:02'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "667ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4Mjk3MzgyLCJleHAiOjE3MzgyOTgyODJ9.60gfM10HWiRJWJ6OoIBSsnSDHrcg9k-YiwThR5SsUHo; Max-Age=900; Path=/; Expires=Fri, 31 Jan 2025 04:38:02 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4Mjk3MzgyLCJleHAiOjE3Mzg5MDIxODJ9.xJOMHdfoF4io9bBioFkPsasIo5S1kCcvPRs2WBuAJdY; Max-Age=604800; Path=/; Expires=Fri, 07 Feb 2025 04:23:02 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:23:02'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/update_category",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "347ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "2",\n' +
+    '        "etag": "W/\\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:23:07'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/update_category",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "277ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1874",\n' +
+    '        "etag": "W/\\"752-I4dbgIm1EV+TXjGUmKMFwp6OdfY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:24:12'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/update_category",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "302ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet",\n' +
+    '        "newCategory": "Ravon"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "67",\n' +
+    '        "etag": "W/\\"43-993wi0S0OEp8zn4N6iP2z0fVOw8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:33:22'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/update_category",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "2286ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet",\n' +
+    '        "newCategory": "Ravon"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "67",\n' +
+    '        "etag": "W/\\"43-993wi0S0OEp8zn4N6iP2z0fVOw8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:33:49'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/update_category",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "276ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet",\n' +
+    '        "newCategory": "Ravon"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "67",\n' +
+    '        "etag": "W/\\"43-993wi0S0OEp8zn4N6iP2z0fVOw8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:35:31'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/update_category",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "2050ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet",\n' +
+    '        "newCategory": "Ravon"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8"\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:36:50'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/update_category",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "2201ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet",\n' +
+    '        "newCategory": "Ravon"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "2",\n' +
+    '        "etag": "W/\\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:37:02'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/update_category",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "11ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet",\n' +
+    '        "newCategory": "Ravon"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:38:07'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 09:38:12'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-31 09:38:13'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "790ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4Mjk4MjkzLCJleHAiOjE3MzgyOTkxOTN9.GAT8sf6zpslR7mqftgo6QO540lv3GrNWPR5rIL7dnyA; Max-Age=900; Path=/; Expires=Fri, 31 Jan 2025 04:53:13 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4Mjk4MjkzLCJleHAiOjE3Mzg5MDMwOTN9.itLOnb9drTDXAWnJ7nmOMKVwygQyeTdQM5UZWFmZ53U; Max-Age=604800; Path=/; Expires=Fri, 07 Feb 2025 04:38:13 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:38:13'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/update_category",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "339ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet",\n' +
+    '        "newCategory": "Ravon"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "84",\n' +
+    '        "etag": "W/\\"54-7dUL5bkA6wM9FUO0Oj2e9Ldw9dE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:38:18'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "340ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "198",\n' +
+    '        "etag": "W/\\"c6-qmpz/koFC/YlF5GQnH4vkSPK5fM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:38:25'
+}
+{
+  message: '{\n' +
+    '    "method": "PUT",\n' +
+    '    "url": "/update_category",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "2902ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Ravon",\n' +
+    '        "newCategory": "Chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "84",\n' +
+    '        "etag": "W/\\"54-ay0OMr70u5qqIn0dwlUa1MqgNZc\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:38:44'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?brand=ferrari",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "404ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1894",\n' +
+    '        "etag": "W/\\"766-nJ7VCXdLXdFDyngCf9qBEUhoLY0\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:38:51'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "450ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "202",\n' +
+    '        "etag": "W/\\"ca-YY6kHFhK40bB86lfpxkQmpzGy+o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 09:39:05'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "31ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "127",\n' +
+    '        "etag": "W/\\"7f-PmDomZAT4wARCh9krVEGdiErPn0\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:18:52'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "20ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:23:07'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 10:25:03'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-31 10:25:04'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "1002ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzAxMTA0LCJleHAiOjE3MzgzMDIwMDR9.MuKrHG9SUboDeOC1Slq-Sd1fv3Ynw2dBiSMABNhFpiw; Max-Age=900; Path=/; Expires=Fri, 31 Jan 2025 05:40:04 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzAxMTA0LCJleHAiOjE3Mzg5MDU5MDR9.xf8nOYUtWqciNeZe05WKFMpm6GsGB6fzt804WrQ3Y2c; Max-Age=604800; Path=/; Expires=Fri, 07 Feb 2025 05:25:04 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:25:04'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "360ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:25:34'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "939ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:28:14'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "380ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:29:05'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "40ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "72",\n' +
+    '        "etag": "W/\\"48-I5AaiX3ridYxRybB2griiqdTAyw\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:31:38'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 400,\n' +
+    '    "duration": "37ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "72",\n' +
+    '        "etag": "W/\\"48-I5AaiX3ridYxRybB2griiqdTAyw\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:32:02'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "2026ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:32:28'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "445ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:35:09'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "612ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:36:48'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "1725ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:39:07'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "18ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:42:55'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 10:42:59'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-31 10:42:59'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "704ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzAyMTc5LCJleHAiOjE3MzgzMDMwNzl9.hIEXTQThraxKxXZ3R5rgcqON5DAHRYJB50YLnHqKNUs; Max-Age=900; Path=/; Expires=Fri, 31 Jan 2025 05:57:59 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzAyMTc5LCJleHAiOjE3Mzg5MDY5Nzl9.JgVVwdk5uC3b4Hz-10Akudxpxn2XX3Us5I0lXef0Egc; Max-Age=604800; Path=/; Expires=Fri, 07 Feb 2025 05:42:59 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:42:59'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "5ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "65",\n' +
+    '        "etag": "W/\\"41-4PYmMUyfsRpTZCjhDTbG6W3dN/c\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:43:03'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "20ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "86",\n' +
+    '        "etag": "W/\\"56-Yir+RIaefAZBKNUwMiJ1Ar/LbLg\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:46:36'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "13ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "86",\n' +
+    '        "etag": "W/\\"56-Yir+RIaefAZBKNUwMiJ1Ar/LbLg\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:47:48'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "16ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "87",\n' +
+    '        "etag": "W/\\"57-uYsRNL1xbKudNwWIlmd1LDHMWIw\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:48:11'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "1926ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:48:51'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "2517ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:50:54'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "340ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 10:53:28'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "983ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "63",\n' +
+    '        "etag": "W/\\"ca-YY6kHFhK40bB86lfpxkQmpzGy+o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:00:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "4347ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "227",\n' +
+    '        "etag": "W/\\"e3-girrkblupaYIIKNbTq5KTLgHBIY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:01:19'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "1767ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "46",\n' +
+    '        "etag": "W/\\"2e-Y/wu8HI/ccY6gIomuje1biWCL/0\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:09:31'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "12ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "BYD"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 152\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:11:44'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "13ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "BYD"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:11:55'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 11:11:59'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-31 11:11:59'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "782ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzAzOTE5LCJleHAiOjE3MzgzMDQ4MTl9.Nl-I-x3fLqQOwYSy9u1yYtHVbXALex1-gslv0EvNRRA; Max-Age=900; Path=/; Expires=Fri, 31 Jan 2025 06:26:59 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzAzOTE5LCJleHAiOjE3Mzg5MDg3MTl9.2DuvFo0bVF1c7wCFUzDphtLrhV0IHSq365u6oZQ5VP8; Max-Age=604800; Path=/; Expires=Fri, 07 Feb 2025 06:11:59 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:11:59'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "4ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "BYD"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:12:02'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "19ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "BYD"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:12:32'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 11:12:38'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-31 11:12:39'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "714ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzAzOTU5LCJleHAiOjE3MzgzMDQ4NTl9.u6hEFhpeS1oBp4iJfA1K7RxX_5Hg_TJK_TtzIeVzsQE; Max-Age=900; Path=/; Expires=Fri, 31 Jan 2025 06:27:39 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzAzOTU5LCJleHAiOjE3Mzg5MDg3NTl9.Um3EK5nIDMsGxDUbr1QfhkdlyyEvA8su-QQClURs4P4; Max-Age=604800; Path=/; Expires=Fri, 07 Feb 2025 06:12:39 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:12:39'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "3ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "BYD"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:12:43'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "2172ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "BYD"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "129",\n' +
+    '        "etag": "W/\\"81-lksVBOb1K/iQPfqDOL5vtvd4Vk8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:13:25'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "591ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "374",\n' +
+    '        "etag": "W/\\"176-GlshKlJSyghRmEDoB13HLvbFz+g\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:13:35'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "5267ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "374",\n' +
+    '        "etag": "W/\\"176-LxZuslMuvb1O7e6UkNGrkIcVXq4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:14:31'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "1595ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:16:39'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "607ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "374",\n' +
+    '        "etag": "W/\\"176-Dqfj5SuXj8gCnQGBx0BEL2AesdE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:17:56'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 403,\n' +
+    '    "duration": "316ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "52",\n' +
+    '        "etag": "W/\\"34-vuGKL8tc+L6mNywIMbgL64etjac\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:19:51'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 403,\n' +
+    '    "duration": "269ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "52",\n' +
+    '        "etag": "W/\\"34-vuGKL8tc+L6mNywIMbgL64etjac\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:21:10'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 403,\n' +
+    '    "duration": "254ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "52",\n' +
+    '        "etag": "W/\\"34-vuGKL8tc+L6mNywIMbgL64etjac\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:22:26'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 403,\n' +
+    '    "duration": "384ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "14",\n' +
+    '        "etag": "W/\\"e-JWOqSwGs6lhRJiUZe/mVb6Mua74\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:22:47'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 403,\n' +
+    '    "duration": "1198ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "52",\n' +
+    '        "etag": "W/\\"34-vuGKL8tc+L6mNywIMbgL64etjac\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:23:14'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "2637ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "89",\n' +
+    '        "etag": "W/\\"59-ARgPbL0PS3H2Cc/Oyf5eaKYosbc\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:23:31'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "3573ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Chevrolet"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "174",\n' +
+    '        "etag": "W/\\"ae-R0PYQbMJZz2yRDiRXPOyhFnY2lE\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:23:41'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "26408ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Lada"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "169",\n' +
+    '        "etag": "W/\\"a9-1R9BM9ls7rmcX5TUiZzoDCpVAxk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:24:32'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "483ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Ferrari"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "172",\n' +
+    '        "etag": "W/\\"ac-8AkjbWgEV4ED8KQdeUnY0MPdps8\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:24:34'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_category",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "641ms",\n' +
+    '    "requestBody": {\n' +
+    '        "category": "Lamborghini"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "176",\n' +
+    '        "etag": "W/\\"b0-ng8I+FDwVpS0eN5MY3x+F4AMORA\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:24:43'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "480ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1187",\n' +
+    '        "etag": "W/\\"4a3-WcZMSphSRJs75L+jKGiLvBJDDeQ\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:24:47'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "3541ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "977",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:25:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=ferrari",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "270ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1894",\n' +
+    '        "etag": "W/\\"766-nJ7VCXdLXdFDyngCf9qBEUhoLY0\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:27:37'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=byd",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "246ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "2",\n' +
+    '        "etag": "W/\\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:27:50'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "6ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:28:01'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 11:28:06'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-31 11:28:06'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "620ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzA0ODg2LCJleHAiOjE3MzgzMDU3ODZ9.ggtT125dmiKJU4Xk7DY42dahaivqZ70UsTT8UxZWmqw; Max-Age=900; Path=/; Expires=Fri, 31 Jan 2025 06:43:06 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzA0ODg2LCJleHAiOjE3Mzg5MDk2ODZ9.iQXgAFcdfg89g4vXpcD_aCUVltur4wKS2j5UhXHYwSk; Max-Age=604800; Path=/; Expires=Fri, 07 Feb 2025 06:28:06 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:28:06'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "377ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:28:08'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "5083ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "BYD",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "65",\n' +
+    '        "etag": "W/\\"41-r0xs5zg4uIQau+ZeaSs4/rxhGcg\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:29:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "504ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "977",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:29:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/show_user_data",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "1296ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "394",\n' +
+    '        "etag": "W/\\"18a-9JSyarZ/FEUxbQ2Wb2hcNDpPWsM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 11:38:56'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "510ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "977",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:42:25'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "19ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "Leapmotor",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:43:16'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 18:43:21'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-31 18:43:21'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "567ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzMxMDAxLCJleHAiOjE3MzgzMzE5MDF9.0RWKBbHEmRK8Dzo0kxD6_JYgRWVfMlk7wwczGf9TtL4; Max-Age=900; Path=/; Expires=Fri, 31 Jan 2025 13:58:21 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzMxMDAxLCJleHAiOjE3Mzg5MzU4MDF9.nn4d86QJG0iarN_ZGFkSrykl2ylstrSLhUp2clogHcg; Max-Age=604800; Path=/; Expires=Fri, 07 Feb 2025 13:43:21 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:43:21'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/add_car",\n' +
+    '    "status": 500,\n' +
+    '    "duration": "299ms",\n' +
+    '    "requestBody": {\n' +
+    '        "brand": "Leapmotor",\n' +
+    '        "model": "Song Plus Champion",\n' +
+    '        "motor": 8,\n' +
+    '        "color": "Kulrang",\n' +
+    '        "gearbox": "avtomat",\n' +
+    '        "description": "Moshina yaxshi kraska toza motor xodovoylari soz holatda!",\n' +
+    '        "tinting": "bor",\n' +
+    '        "year": 2025,\n' +
+    '        "distance": 0,\n' +
+    '        "price": 450000000\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "101",\n' +
+    '        "etag": "W/\\"65-dW/B58P3u5mrUGQ9noZJbXZ+m9o\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:43:25'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/show_user_data",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "769ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "394",\n' +
+    '        "etag": "W/\\"18a-9JSyarZ/FEUxbQ2Wb2hcNDpPWsM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:43:55'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/dislike",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "913ms",\n' +
+    '    "requestBody": {\n' +
+    '        "carId": "679726febd43fc93092b896d",\n' +
+    '        "userId": "6797199b8d079f83daa3f759"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "42",\n' +
+    '        "etag": "W/\\"2a-uo0uraCMeLvM5v2oalQwhYOh/Gs\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:44:32'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/dislike",\n' +
+    '    "status": 403,\n' +
+    '    "duration": "367ms",\n' +
+    '    "requestBody": {\n' +
+    '        "carId": "679726febd43fc93092b896d",\n' +
+    '        "userId": "6797199b8d079f83daa3f759"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "51",\n' +
+    '        "etag": "W/\\"33-TZfRoNympJNNLNOsX7iDyIUPwCI\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:44:35'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/show_user_data",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "877ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "394",\n' +
+    '        "etag": "W/\\"18a-0GrLuLwUI0n7v3Kth1aGMY3R7Rg\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:44:41'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "381ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "977",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:56:26'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "371ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:56:26'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "497ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:57:13'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "403ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:57:13'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "448ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "977",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:58:15'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "424ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:58:15'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "493ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:58:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "376ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:58:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "423ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:58:46'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "390ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:58:46'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "390ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:58:56'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "407ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:58:56'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "474ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:59:27'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "407ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 18:59:27'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738296706578.jpeg",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "3ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 04:11:46 GMT",\n' +
+    '        "etag": "W/\\"3628-194ba8ec613\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:00:02'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/favicon.ico",\n' +
+    '    "status": 404,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    `        "content-security-policy": "default-src 'none'",\n` +
+    '        "x-content-type-options": "nosniff",\n' +
+    '        "content-type": "text/html; charset=utf-8",\n' +
+    '        "content-length": 150\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:00:02'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "419ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:01:38'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "416ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:01:39'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "394ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:02:30'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "513ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:02:31'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "474ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:02:49'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "375ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:02:50'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "380ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:05:16'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "372ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:05:17'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "494ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:07:00'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "410ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:07:01'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "73490ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:12:23'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "369ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:12:23'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "416ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:12:38'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738296706578.jpeg",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 04:11:46 GMT",\n' +
+    '        "etag": "W/\\"3628-194ba8ec613\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:12:38'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "399ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:12:38'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1798ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:13:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "438ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:13:50'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "484ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:17:06'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "452ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:17:24'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "407ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:17:24'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "402ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:17:31'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "613ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:17:32'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "427ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3d1-ZIAv8oDdgTfMJ9pTixvJSXHRceM\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:18:14'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=byd",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "269ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "269",\n' +
+    '        "etag": "W/\\"10d-i401fiMOzZMBZdwFpC8QRj2syB4\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:19:28'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/upload/679c6dd13c562e60598fa851",\n' +
+    '    "status": 401,\n' +
+    '    "duration": "2ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "27",\n' +
+    '        "etag": "W/\\"1b-ptDm3ggC53pgcLgMnSH4sPfBUYY\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:19:39'
+}
+{
+  message: 'shuhratkarimov.dev@gmail.com email egasi login qilishga urindi!',
+  level: 'info',
+  timestamp: '2025-01-31 19:19:45'
+}
+{
+  message: 'shuhrat tizimga kirdi!',
+  level: 'info',
+  timestamp: '2025-01-31 19:19:46'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/login",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "688ms",\n' +
+    '    "requestBody": {\n' +
+    '        "email": "shuhratkarimov.dev@gmail.com",\n' +
+    '        "password": "1111"\n' +
+    '    },\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "set-cookie": [\n' +
+    '            "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzMzMTg2LCJleHAiOjE3MzgzMzQwODZ9.roYVlDgY1M-4IZjTOxZ0uJMnut5AN6R-ziGnoyV1nBM; Max-Age=900; Path=/; Expires=Fri, 31 Jan 2025 14:34:46 GMT; HttpOnly",\n' +
+    '            "refreshtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OTcxOTliOGQwNzlmODNkYWEzZjc1OSIsInVzZXJuYW1lIjoic2h1aHJhdCIsImVtYWlsIjoic2h1aHJhdGthcmltb3YuZGV2QGdtYWlsLmNvbSIsInJvbGUiOiJzdXBlcmFkbWluIiwiaWF0IjoxNzM4MzMzMTg2LCJleHAiOjE3Mzg5Mzc5ODZ9.sCsROTHbayhtX0nNpclUCEvhqXQB3E95r5-tc4VbbUM; Max-Age=604800; Path=/; Expires=Fri, 07 Feb 2025 14:19:46 GMT; HttpOnly"\n' +
+    '        ],\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "61",\n' +
+    '        "etag": "W/\\"3d-zzZYoy/f/2rDKMTNKzSjvMrDORk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:19:46'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/upload/679c6dd13c562e60598fa851",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "237ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "209",\n' +
+    '        "etag": "W/\\"d1-Vl/YtJIlMGIjsjosjy7sRni7yjo\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:19:50'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "510ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1023",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:19:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738333190236.jpeg",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "8ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 14:19:50 GMT",\n' +
+    '        "etag": "W/\\"3628-194bcbb785d\\"",\n' +
+    '        "content-type": "image/jpeg",\n' +
+    '        "content-length": 13864\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:19:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738296706578.jpeg",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 04:11:46 GMT",\n' +
+    '        "etag": "W/\\"3628-194ba8ec613\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:19:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "411ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:19:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "460ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:22:16'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "394ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:22:31'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "403ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:23:39'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=chevrolet",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "197ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1874",\n' +
+    '        "etag": "W/\\"752-bbQZlYssDP1TpfsPZ7Eic5O9r0U\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:30:32'
+}
+{
+  message: '{\n' +
+    '    "method": "POST",\n' +
+    '    "url": "/upload/6797243cbd43fc93092b892f",\n' +
+    '    "status": 201,\n' +
+    '    "duration": "236ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "209",\n' +
+    '        "etag": "W/\\"d1-aBnPAe51HYibomr5TOvY4A+08jQ\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:31:22'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "591ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:31:28'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738333190236.jpeg",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "5ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 14:19:50 GMT",\n' +
+    '        "etag": "W/\\"3628-194bcbb785d\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:31:28'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738296706578.jpeg",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 04:11:46 GMT",\n' +
+    '        "etag": "W/\\"3628-194ba8ec613\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:31:28'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "519ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:31:29'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "477ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:32:56'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "469ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:33:00'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738333190236.jpeg",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 14:19:50 GMT",\n' +
+    '        "etag": "W/\\"3628-194bcbb785d\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:33:00'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738296706578.jpeg",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 04:11:46 GMT",\n' +
+    '        "etag": "W/\\"3628-194ba8ec613\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:33:00'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "408ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:33:01'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "422ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:40:15'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738333190236.jpeg",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 14:19:50 GMT",\n' +
+    '        "etag": "W/\\"3628-194bcbb785d\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:40:15'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738296706578.jpeg",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 04:11:46 GMT",\n' +
+    '        "etag": "W/\\"3628-194ba8ec613\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:40:15'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "408ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:40:15'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "614ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:56:09'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "403ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:57:22'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "457ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:57:59'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "477ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:58:17'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "400ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:58:44'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "432ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 19:59:33'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "423ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:19'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=BYD",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "209ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "421",\n' +
+    '        "etag": "W/\\"1a5-oDsEpCP7IVoIV8ItSxAWZggR/Ig\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:19'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Chevrolet",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "213ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1876",\n' +
+    '        "etag": "W/\\"754-xSvHmmQmdfaer2dIcH83+SFGczA\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:19'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Lamborghini",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "383ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1604",\n' +
+    '        "etag": "W/\\"644-WaagBKVM6jJ6JogR0Ys1h07CUlk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:19'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "413ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:19'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=BYD",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "196ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"1a5-oDsEpCP7IVoIV8ItSxAWZggR/Ig\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:19'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Chevrolet",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "385ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"754-xSvHmmQmdfaer2dIcH83+SFGczA\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:20'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Lamborghini",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "209ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"644-WaagBKVM6jJ6JogR0Ys1h07CUlk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:20'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=BYD",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "197ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"1a5-oDsEpCP7IVoIV8ItSxAWZggR/Ig\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:20'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Lamborghini",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "194ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"644-WaagBKVM6jJ6JogR0Ys1h07CUlk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:20'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Chevrolet",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "199ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"754-xSvHmmQmdfaer2dIcH83+SFGczA\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:20'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=BYD",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "199ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"1a5-oDsEpCP7IVoIV8ItSxAWZggR/Ig\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:20'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Chevrolet",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "189ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"754-xSvHmmQmdfaer2dIcH83+SFGczA\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:20'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Lamborghini",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "196ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"644-WaagBKVM6jJ6JogR0Ys1h07CUlk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:20'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Ferrari",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "1413ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1894",\n' +
+    '        "etag": "W/\\"766-nJ7VCXdLXdFDyngCf9qBEUhoLY0\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:20'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Lada",\n' +
+    '    "status": 200,\n' +
+    '    "duration": "1446ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "content-type": "application/json; charset=utf-8",\n' +
+    '        "content-length": "1542",\n' +
+    '        "etag": "W/\\"606-VrU8W18WGMAjew9AUst1/Sy1gwg\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:20'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Lada",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "275ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"606-VrU8W18WGMAjew9AUst1/Sy1gwg\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Ferrari",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "308ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"766-nJ7VCXdLXdFDyngCf9qBEUhoLY0\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Lada",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "199ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"606-VrU8W18WGMAjew9AUst1/Sy1gwg\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Ferrari",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "201ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"766-nJ7VCXdLXdFDyngCf9qBEUhoLY0\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Lada",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "197ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"606-VrU8W18WGMAjew9AUst1/Sy1gwg\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Ferrari",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "201ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"766-nJ7VCXdLXdFDyngCf9qBEUhoLY0\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:21'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "483ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:44'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "497ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:53'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738333190236.jpeg",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "2ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 14:19:50 GMT",\n' +
+    '        "etag": "W/\\"3628-194bcbb785d\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:53'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/1738296706578.jpeg",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "1ms",\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "accept-ranges": "bytes",\n' +
+    '        "cache-control": "public, max-age=0",\n' +
+    '        "last-modified": "Fri, 31 Jan 2025 04:11:46 GMT",\n' +
+    '        "etag": "W/\\"3628-194ba8ec613\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:53'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "405ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:53'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=BYD",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "260ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"1a5-oDsEpCP7IVoIV8ItSxAWZggR/Ig\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:56'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Chevrolet",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "230ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"754-xSvHmmQmdfaer2dIcH83+SFGczA\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:05:58'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_categories",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "455ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"3ff-Nbjh2VnKWBN1NgiN14nwk8nnjRU\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:06:41'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Chevrolet",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "235ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"754-xSvHmmQmdfaer2dIcH83+SFGczA\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:06:42'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=BYD",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "182ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"1a5-oDsEpCP7IVoIV8ItSxAWZggR/Ig\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:06:51'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Ferrari",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "241ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"766-nJ7VCXdLXdFDyngCf9qBEUhoLY0\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:06:53'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Lamborghini",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "223ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"644-WaagBKVM6jJ6JogR0Ys1h07CUlk\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:06:55'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Lada",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "186ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"606-VrU8W18WGMAjew9AUst1/Sy1gwg\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:06:56'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=Chevrolet",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "241ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"754-xSvHmmQmdfaer2dIcH83+SFGczA\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:06:58'
+}
+{
+  message: '{\n' +
+    '    "method": "GET",\n' +
+    '    "url": "/get_cars?category=BYD",\n' +
+    '    "status": 304,\n' +
+    '    "duration": "270ms",\n' +
+    '    "requestBody": {},\n' +
+    '    "responseHeaders": {\n' +
+    '        "x-powered-by": "Express",\n' +
+    '        "access-control-allow-origin": "*",\n' +
+    '        "etag": "W/\\"1a5-oDsEpCP7IVoIV8ItSxAWZggR/Ig\\""\n' +
+    '    }\n' +
+    '}',
+  level: 'info',
+  timestamp: '2025-01-31 20:07:05'
+}

@@ -1,0 +1,740 @@
+openapi: 3.0.0
+info:
+  title: Online Car Info Project
+  version: 1.0.0
+  description: API for user authentication, managing cars and their info.
+servers:
+  - url: http://localhost:3000
+    description: Production server
+tags:
+  - name: Authentication
+    description: Endpoints related to user authentication
+paths:
+  /register:
+    post:
+      security:
+        - bearerAuth: [] 
+      tags:
+        - Authentication
+      summary: Register a new user
+      requestBody:
+        description: "User registration data"
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                  example: shuhrat
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+                password:
+                  type: string
+                  example: "11111"
+      responses:
+        '201':
+          description: Registration successful
+        '403':
+          description: User already registered
+        '500':
+          description: Server error
+  /verify:
+    post:
+      tags:
+        - Authentication
+      summary: Verify user's email
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+                code:
+                  type: number
+                  example: 11111
+      responses:
+        '200':
+          description: Email verification successful
+        '401':
+          description: Verification code invalid or expired
+        '404':
+          description: User not found
+  /resend_verification_code:
+    post:
+      tags:
+        - Authentication
+      summary: Resend email verification code
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+      responses:
+        '200':
+          description: Verification code resent successfully
+        '404':
+          description: User not found or already verified
+        '500':
+          description: Server error
+  /get_forgot_password_code:
+    post:
+      tags:
+        - Authentication
+      summary: Request password recovery
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+      responses:
+        '200':
+          description: Password recovery code sent
+        '404':
+          description: User not found
+        '500':
+          description: Server error
+  /verify_forgot_password_code:
+    post:
+      tags:
+        - Authentication
+      summary: Verify password recovery code
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+                code:
+                  type: number
+                  example: 123456
+      responses:
+        '200':
+          description: Recovery code verified
+        '401':
+          description: Invalid or expired recovery code
+        '404':
+          description: User not found
+  /resend_recover_password_code:
+    post:
+      tags:
+        - Authentication
+      summary: Resend password recovery code
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+      responses:
+        '200':
+          description: Recovery code resent successfully
+        '404':
+          description: User not found
+        '429':
+          description: Too many attempts; try later
+        '500':
+          description: Server error
+  /add_new_password:
+    post:
+      tags:
+        - Authentication
+      summary: Add a new password
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+                newPassword:
+                  type: string
+                  example: NewP@ssw0rd
+      responses:
+        '200':
+          description: Password updated successfully
+        '403':
+          description: New password is too short
+        '404':
+          description: User not found
+        '500':
+          description: Server error
+  /login:
+    post:
+      tags:
+        - Authentication
+      summary: User login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: shuhratkarimov.dev@gmail.com
+                password:
+                  type: string
+                  example: P@ssw0rd
+      responses:
+        '200':
+          description: Login successful
+        '401':
+          description: Invalid credentials
+        '500':
+          description: Server error
+  /refresh:
+    post:
+      tags:
+        - Authentication
+      summary: "Yangi access token olish"
+      description: "Refresh token orqali yangi access token yaratadi."
+      security:
+        - cookieAuth: []
+      responses:
+        200:
+          description: "Refresh token orqali yangi access token berildi!"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Refresh token orqali yangi access token berildi!"
+        400:
+          description: "Refresh token topilmadi!"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        401:
+          description: "Yaroqsiz yoki eskirgan refresh token"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"      
+  /logout:
+    post:
+      tags:
+        - Authentication
+      summary: User logout
+      responses:
+        '200':
+          description: Logout successful
+        '500':
+          description: Server error   
+  /get_cars:
+    get:
+      summary: Brend bo‘yicha avtomobillarni olish
+      tags:
+        - Cars    
+      parameters:
+        - name: category
+          in: query
+          description: Avtomobil brendi
+          required: false
+          schema:
+            type: string
+      responses:
+        200:
+          description: Muvaffaqiyatli so‘rov
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Car'
+  /get_one_car/{id}:
+    get:
+      summary: Bitta avtomobilni ID bo‘yicha olish
+      tags:
+        - Cars         
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Muvaffaqiyatli
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Car'
+        404:
+          description: Avtomobil topilmadi
+  /add_car:
+    post:
+      summary: Yangi avtomobil qo‘shish
+      tags:
+        - Cars         
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Car'
+      responses:
+        201:
+          description: Avtomobil muvaffaqiyatli qo‘shildi
+        400:
+          description: Xatolik yuz berdi
+  /update_car/{id}:
+    put:
+      summary: Avtomobil ma’lumotlarini yangilash
+      tags:
+        - Cars         
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Car'
+      responses:
+        200:
+          description: Avtomobil ma’lumotlari yangilandi
+  /delete_car/{id}:
+    delete:
+      summary: Avtomobilni o‘chirish
+      tags:
+        - Cars         
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Avtomobil o‘chirildi
+  /get_categories:
+    get:
+      summary: Retrieve all categories with associated car images
+      description: Fetches all categories and associates the first image of cars based on category brands.
+      tags:
+        - Categories
+      security:
+        - Cookie: []
+      responses:
+        '200':
+          description: Successfully retrieved categories with car images
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  categories:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        category:
+                          type: string
+                        createdBy:
+                          type: string
+                        firstImage:
+                          type: string
+                          description: URL of the first image of the car brand
+        '400':
+          description: No categories found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Hali category'lar mavjud emas..."
+  /add_category:
+    post:
+      summary: Add a new category
+      description: Adds a new category to the database.
+      tags:
+        - Categories
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                category:
+                  type: string
+                  description: The name of the new category
+      responses:
+        '201':
+          description: Successfully added the category
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  category:
+                    type: string
+                  createdBy:
+                    type: string
+        '403':
+          description: Category already exists
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Category already exists"
+  /update_category:
+    put:
+      summary: Update an existing category
+      description: Updates the brand name for cars under a specific category.
+      tags:
+        - Categories
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                category:
+                  type: string
+                  description: The old category name (brand)
+                newCategory:
+                  type: string
+                  description: The new category name (new brand)
+      responses:
+        '200':
+          description: Successfully updated cars' brands
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "All cars with brand 'oldCategory' have been updated to 'newCategory'"
+        '404':
+          description: No cars found with the specified category
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "No cars found for the specified category"
+  /delete_category:
+    delete:
+      summary: Delete cars under a specific category
+      description: Deletes all cars associated with a specific category (brand).
+      tags:
+        - Categories
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                category:
+                  type: string
+                  description: The name of the category (brand) to delete cars
+      responses:
+        '200':
+          description: Successfully deleted cars
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "All cars with brand 'category' have been deleted"
+                  DeletedCarsAmount:
+                    type: integer
+                    description: The number of cars deleted
+        '404':
+          description: No cars found for deletion
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "No cars found for the specified category"
+  /upload/{carId}:
+    post:
+      summary: Upload car images
+      description: Allows users to upload three images for a car. The images are saved to the server, and the car document in the database is updated with the image URLs.
+      tags:
+        - File Upload
+      parameters:
+        - name: carId
+          in: path
+          required: true
+          description: The unique ID of the car to associate the images with.
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                pictures:
+                  type: array
+                  items:
+                    type: string
+                    format: binary
+                  description: Images to be uploaded. Exactly 3 images should be uploaded.
+      responses:
+        '201':
+          description: Successfully uploaded images
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Rasmlar muvaffaqiyatli yuklandi"
+                  images:
+                    type: array
+        '404':
+          description: Car not found or invalid image count
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Avtomobil topilmadi!"
+        '400':
+          description: Invalid number of images uploaded
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Yuklanadigan rasmlar soni 3 ta bo'lishi kerak!"
+  /like:
+    post:
+      summary: Like a car
+      description: Allows a user to like a car. Checks if the user has already liked the car.
+      tags:
+        - Likes
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                carId:
+                  type: string
+                  description: The unique ID of the car being liked.
+      responses:
+        '200':
+          description: Successfully liked the car
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Avtomobilga like bosildi!"
+        '403':
+          description: User has already liked this car
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Siz bu avtomobilga like bosgansiz!"
+  /unlike:
+    post:
+      summary: Unlike a car
+      description: Allows a user to unlike a car. Checks if the user has liked the car first.
+      tags:
+        - Likes
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                carId:
+                  type: string
+                  description: The unique ID of the car being unliked.
+      responses:
+        '200':
+          description: Successfully unliked the car
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Avtomobilga unlike bosildi!"
+        '403':
+          description: User has not liked this car yet
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Siz bu avtomobilga like bosmagansiz!"
+        '500':
+          description: Failed to unlike the car
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Like o'chirilmadi, iltimos keyinroq urinib ko'ring!"
+components:
+  schemas:
+    Car:
+      type: object
+      properties:
+        brand:
+          type: string
+          example: "Chevrolet"
+        model:
+          type: string
+          example: "Nexia"
+        motor:
+          type: number
+          example: 1.5
+        color:
+          type: string
+          example: "Oq"
+        gearbox:
+          type: string
+          example: "avtomat"
+        description:
+          type: string
+          example: "Moshina yangi schyot-spravkasi bor hali minilmagan!"
+        year:
+          type: integer
+          example: 2023
+        tinting:
+          type: string
+          example: bor
+          enum: 
+            - bor
+            - yo'q         
+        distance:
+          type: integer
+          example: 12000
+        price:
+          type: integer
+          example: 12000 
+    Category:
+      type: object
+      properties:
+        category:
+          type: string
+          description: The name of the category  
+    UploadResponse:
+      type: object
+      properties:
+        message:
+          type: string
+          example: "Rasmlar muvaffaqiyatli yuklandi"
+        images:
+          type: array
+          items:
+            type: string
+            example: "http://localhost:3000/uploads/1632769223132.jpg"          
+    Like:
+      type: object
+      properties:
+        carId:
+          type: string
+          description: The unique ID of the car that was liked.            
+    Error:
+      type: object
+      properties:
+        message:
+          type: string
+          description: Error message
+        code:
+          type: integer
+          description: HTTP status code of the error
+        errors:
+          type: array
+          items:
+            type: string
+          description: List of error details
+      required:
+        - message
+        - code
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT 
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: refreshtoken
+
+
+
