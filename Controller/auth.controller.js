@@ -371,11 +371,9 @@ async function show_user_data(req, res, next) {
     const {refreshtoken} = req.cookies
     const userdata = jwt.verify(refreshtoken, process.env.REFRESH_SECRET_KEY)
     const likes = await LikeModel.find({userId: userdata.id}, "carId").lean()
-    const dislikes = await DisLikeModel.find({userId: userdata.id}, "carId").lean()
     const addedCategories = await CategoriesModel.find({createdBy: userdata.id}, "_id").lean()
     const addedCars = await CarsModel.find({createdBy: userdata.id}, "_id").lean()
     userdata.likes = likes
-    userdata.dislikes = dislikes
     userdata.addedCategoriesByUser = addedCategories
     userdata.addedCarsByUser = addedCars
     delete userdata.iat

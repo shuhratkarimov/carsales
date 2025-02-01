@@ -255,7 +255,7 @@ paths:
   /show_user_data:
     get:
       summary: Retrieve user data based on refresh token
-      description: Fetches user data, including likes, dislikes, added categories, and added cars based on the user's refresh token.
+      description: Fetches user data, including likes, added categories, and added cars based on the user's refresh token.
       tags:
         - Authentication
       responses:
@@ -277,14 +277,6 @@ paths:
                         carId:
                           type: string
                           description: Car ID liked by the user.
-                  dislikes:
-                    type: array
-                    items:
-                      type: object
-                      properties:
-                        carId:
-                          type: string
-                          description: Car ID disliked by the user.
                   addedCategoriesByUser:
                     type: array
                     items:
