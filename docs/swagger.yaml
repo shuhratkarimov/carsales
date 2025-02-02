@@ -251,7 +251,61 @@ paths:
         '200':
           description: Logout successful
         '500':
-          description: Server error   
+          description: Server error
+  /change_role/{id}:
+    post:
+      summary: Foydalanuvchi rolini o'zgartirish
+      description: Ushbu endpoint foydalanuvchi rolini "user" yoki "admin" ga o'zgartirish uchun ishlatiladi.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: O'zgartirilayotgan foydalanuvchi ID si
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                new_role:
+                  type: string
+                  enum: ["admin", "user"]
+                  description: Yangi rol (faqat "admin" yoki "user" bo'lishi mumkin)
+              required:
+                - new_role
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: Foydalanuvchi roli muvaffaqiyatli o'zgartirildi.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "403":
+          description: Ruxsat etilmagan yoki noto'g'ri rol.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+        "404":
+          description: Foydalanuvchi topilmadi yoki rol kiritilmadi.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
   /show_user_data:
     get:
       summary: Retrieve user data based on refresh token
