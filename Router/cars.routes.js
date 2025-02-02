@@ -28,10 +28,10 @@ CarsRouter.post(
 );
 CarsRouter.put("/update_car/:id", verifyAccessToken, updateCar);
 CarsRouter.delete("/delete_car/:id", verifyAccessToken, deleteCar);
-CarsRouter.post("/like", verifyAccessToken, likeCar);
-CarsRouter.post("/unlike", verifyAccessToken, unLikeCar);
+CarsRouter.post("/like", likeCar);
+CarsRouter.post("/unlike", unLikeCar);
 CarsRouter.post("/add_category", verifyAccessToken, addCategory)
-CarsRouter.get("/get_categories", verifyAccessToken, getCategories);
+CarsRouter.get("/get_categories", getCategories);
 CarsRouter.put("/update_category", verifyAccessToken, updateCategories);
 CarsRouter.delete("/delete_category", verifyAccessToken, deleteCategory);
 
