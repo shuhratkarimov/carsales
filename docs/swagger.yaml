@@ -351,6 +351,32 @@ paths:
           description: Unauthorized. Invalid or missing refresh token.
         '500':
           description: Internal server error.
+  /get_users:
+    get:
+      summary: Foydalanuvchilar ro'yxatini olish
+      tags:
+        - Users
+      responses:
+        200:
+          description: Muvaffaqiyatli so‘rov
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
+        404:
+          description: Foydalanuvchilar topilmadi
+          content:
+            application/json:
+              example:
+                error: "Hali foydalanuvchilar mavjud emas!"
+        500:
+          description: Server xatosi
+          content:
+            application/json:
+              example:
+                error: "Ichki server xatosi."
   /get_cars:
     get:
       summary: Brend bo‘yicha avtomobillarni olish
@@ -784,7 +810,19 @@ components:
           example: 12000
         price:
           type: integer
-          example: 12000 
+          example: 12000
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          example: "65a7d8e3c4b4f4a6b3e2d1a9"
+        name:
+          type: string
+          example: "John Doe"
+        email:
+          type: string
+          example: "johndoe@example.com"
     Category:
       type: object
       properties:
